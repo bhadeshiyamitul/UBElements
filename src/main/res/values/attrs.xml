@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UBImageView">
+        <attr name="ubImageDrawable" format="reference" />
+        <attr name="ubImagePlaceHolder" format="reference" />
+        <attr name="ubImageErrorHolder" format="reference" />
+        <attr name="ubViewHeight" format="float" />
+        <attr name="ubViewWidth" format="float" />
+        <attr name="ubImageUrl" format="string" />
+        <attr name="ubScaleType" format="enum">
+            <enum name="fitXY" value="0" />
+            <enum name="fitStart" value="1" />
+            <enum name="centerCrop" value="2" />
+            <enum name="center" value="3" />
+            <enum name="matrix" value="4" />
+            <enum name="centerInside" value="5" />
+            <enum name="fitCenter" value="6" />
+            <enum name="fitEnd" value="7" />
+        </attr>
+        <attr name="ubImageSelectedDrawable" format="reference" />
+        <attr name="ubImageUnselectedDrawable" format="reference" />
+        <attr name="ubIsImageSelected" format="boolean" />
+
+        <attr name="ubSelectedViewHeight" format="float" />
+        <attr name="ubSelectedViewWidth" format="float" />
+
+        <attr name="ubUnSelectedViewHeight" format="float" />
+        <attr name="ubUnSelectedViewWidth" format="float" />
+    </declare-styleable>
+</resources>
